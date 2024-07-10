@@ -1,0 +1,47 @@
+.topnav {
+    margin: 0;
+    background-color: #4f4f4f;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+.topnav a:hover {
+    background-color: red;
+    color: white;
+}
+
+.home {
+    background-color: rgb(235, 78, 78);
+}
+.choose {
+    color: white;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.advertisement {
+    color:white;
+   
+}
+.advertisement h3 {
+    margin-left: 10px;
+}
+html {
+    font-family: Arial;
+}
