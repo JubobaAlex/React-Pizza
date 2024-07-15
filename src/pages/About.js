@@ -1,6 +1,7 @@
 import './About.css';
 
 export default function About() {
+    console.log(__dirname)
     return(
         <div>
             <main className="about">

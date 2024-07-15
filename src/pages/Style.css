@@ -57,4 +57,12 @@
     
 }
 
+.cena {
+    color: white;
+    font-size: 18px;
+}
 
+.cena:hover {
+    transform: scale(1.08);
+    color:red;
+}

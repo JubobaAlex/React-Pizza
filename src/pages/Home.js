@@ -1,6 +1,7 @@
 import Order from './Order'
 import { Route, Routes ,  BrowserRouter } from 'react-router-dom';
 export default function Home() {
+  
     return(
         <div >
             <span className="advertisement">
@@ -16,7 +17,8 @@ export default function Home() {
          <div className='card'>
           <img className='card-img' src={'./img/Pepirone.jpg'} width={190} height={150} ></img>
           <div className='card-title'>пицца "Пепперони"</div>
-          <div className='card-sub'>Салями пепперони, маслины, соус томатный, сыр моцарелла <bt /><br/></div>
+          <div className='card-sub'>Салями пепперони, маслины, соус томатный, сыр моцарелла <br/></div> <br /> <br />
+          <div className='cena'>Цена: 350 RUB</div>
           <div className='btn-keeper'>
             <a className="btn" href="/order">Заказать</a>
           </div>
@@ -24,13 +26,14 @@ export default function Home() {
         </div>
         </div>
 
-        <div className='tovar' title='tovarTwo' id='0002'>
+        <div className='tovar' title='tovar8' id='0008'>
         
         <div className='wrapper'>
          <div className='card'>
-          <img className='card-img' src={'./img/2.jpg'} width={190} height={150} ></img>
-          <div className='card-title'>Стол</div>
-          <div className='card-sub'>Описание</div>
+          <img className='card-img' src={'./img/chizburger.jpg'} width={190} height={150} ></img>
+          <div className='card-title'>Чизбургер</div>
+          <div className='card-sub'>Булочка бриошь, котлета из телятины, 3 сыра чедр, томаты, солёный огурец, салат, соус</div> <br /> <br />
+          <div className='cena'>Цена: 150 RUB</div>
           <div className='btn-keeper'>
             <a  className="btn" href="/order">Заказать</a>
           </div>
@@ -41,22 +44,24 @@ export default function Home() {
         
         <div className='wrapper'>
          <div className='card'>
-          <img className='card-img' src={'./img/3.jpg'} width={190} height={150} ></img>
-          <div className='card-title'>Шкаф</div>
-          <div className='card-sub'>Описание</div>
+          <img className='card-img' src={'./img/mec.jpg'} width={190} height={150} ></img>
+          <div className='card-title'>пицца "Мясное ассорти"</div>
+          <div className='card-sub'>Соус, охотничьи колбаски, салями, курица, шампиньоны, болгарский перец, сыр моцарелла</div> <br /> <br />
+          <div className='cena'>Цена: 350 RUB</div>
           <div className='btn-keeper'>
             <a className="btn" href="/order">Заказать</a>
           </div>
          </div>
         </div>
         </div>
-        <div className='tovar' title='tovarFour' id='0004'>
+        <div className='tovar' title='tovar2' id='0002'>
         
         <div className='wrapper'>
          <div className='card'>
-          <img className='card-img' src={'./img/4.png'} width={190} height={150} ></img>
-          <div className='card-title'>Кровать</div>
-          <div className='card-sub'>Описание</div>
+          <img className='card-img' src={'./img/4se.jpg'} width={190} height={150} ></img>
+          <div className='card-title'>пицца "4 сыра"</div>
+          <div className='card-sub'>Моцарелла, гауда, сливочно-творожный, чеддер, томаты, соус сливочный</div> <br /> <br />
+          <div className='cena'>Цена: 450 RUB</div>
           <div className='btn-keeper'>
             <a  className="btn" href="/order">Заказать</a>
           </div>
@@ -65,27 +70,14 @@ export default function Home() {
         </div>
         </div>
 
-        <div className='tovar' title='tovarFive' id='0005'>
+        <div className='tovar' title='tovar11' id='0011'>
         
         <div className='wrapper'>
          <div className='card'>
-          <img className='card-img' src={'./img/5.jpg'} width={190} height={150} ></img>
-          <div className='card-title'>Тумбочка</div>
-          <div className='card-sub'>Описание</div>
-          <div className='btn-keeper'>
-            <a  className="btn" href="/order">Заказать</a>
-          </div>
-         </div>
-         
-        </div>
-        </div>
-        <div className='tovar' title='tovarFive' id='0005'>
-        
-        <div className='wrapper'>
-         <div className='card'>
-          <img className='card-img' src={'./img/6.jpg'} width={190} height={150} ></img>
-          <div className='card-title'>Диван</div>
-          <div className='card-sub'>Описание</div>
+          <img className='card-img' src={'./img/bugt.jpg'} width={190} height={150} ></img>
+          <div className='card-title'>Биг Тести</div>
+          <div className='card-sub'>Булочка бриошь, 2 котлеты из телятины, сыр чедр, томаты, солёный огурец, салат, маринованный лук, соус</div> <br/> <br/>
+          <div className='cena'>Цена: 210 RUB</div>
           <div className='btn-keeper'>
             <a  className="btn" href="/order">Заказать</a>
           </div>
